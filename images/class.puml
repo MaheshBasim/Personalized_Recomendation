@@ -1,0 +1,62 @@
+@startuml
+title E-Commerce Recommendation System - Class Diagram
+
+' Set direction top to bottom
+left to right direction
+
+class User {
+    +int user_id
+    +str username
+    +str password_hash
+    +datetime created_at
+    +authenticate()
+}
+
+class Product {
+    +int product_id
+    +str category
+    +float price
+    +float rating
+    +get_similar_products()
+}
+
+class RecommendationEngine {
+    -dict model_data
+    +train_model()
+    +get_recommendations()
+    -content_based_filter()
+    -collaborative_filter()
+}
+
+class FlaskApp {
+    +SQLAlchemy db
+    +LoginManager login
+    +register_blueprints()
+    +handle_errors()
+}
+
+class AuthController {
+    +login()
+    +register()
+    +logout()
+}
+
+class RecController {
+    +show_recommendations()
+    +generate_plot()
+}
+
+User "1" --> "n" Product : Views/Purchases
+RecommendationEngine --> Product : Analyzes
+FlaskApp o-- AuthController
+FlaskApp o-- RecController
+RecController --> RecommendationEngine : Uses
+
+note right of RecommendationEngine
+    Implements hybrid approach:
+    1. Content-Based Filtering
+    2. Collaborative Filtering
+    3. Popular Items Fallback
+end note
+
+@enduml

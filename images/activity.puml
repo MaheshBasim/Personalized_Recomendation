@@ -1,0 +1,61 @@
+@startuml
+title Recommendation Generation Workflow
+
+skinparam backgroundColor #ffffff
+skinparam activity {
+    BackgroundColor #ffffff
+    BorderColor #667eea
+    FontColor #343a40
+}
+
+start
+:User accesses platform;
+
+if (Authenticated?) then (yes)
+    :Retrieve user profile;
+    :Load purchase history;
+else (no)
+    :Show landing page;
+    :Prompt for login/register;
+endif
+
+:User initiates recommendation request;
+
+partition "Input Type" {
+    if (Input Type?) then (User ID)
+        :Analyze user behavior patterns;
+        :Collaborative filtering;
+        :Content-based filtering;
+    elseif (Product ID)
+        :Extract product features;
+        :Find similar items;
+        :Rank by similarity score;
+    elseif (Category)
+        :Filter category catalog;
+        :Sort by popularity/rating;
+    else (No Input)
+        :Select trending products;
+        :Apply diversity sampling;
+    endif
+}
+
+:Calculate recommendation scores;
+:Apply business rules;
+
+if (New user?) then (yes)
+    :Boost popular items;
+else (no)
+    :Personalize weights;
+endif
+
+:Generate visualization data;
+:Render interactive UI components;
+stop
+
+note right
+    Business Rules:
+    - Minimum rating: 3.5+
+    - Price range matching
+    - Inventory availability
+end note
+@enduml

@@ -1,0 +1,29 @@
+@startuml
+title Recommendation Request Sequence
+
+actor User as "Customer"
+participant UI as "Web Interface"
+participant Controller as "RecommendationController"
+participant Engine as "RecommendationEngine"
+participant DB as "Database"
+
+User ->> UI: Submits recommendation request (user_id=42)
+UI ->> Controller: POST /recommendations
+Controller ->> Engine: get_recommendations(user_id)
+
+alt Existing User
+    Engine ->> DB: Load user history
+    DB -->> Engine: Return purchase data
+    Engine ->> Engine: Collaborative filtering
+    Engine ->> Engine: Content-based filtering
+    Engine ->> Engine: Combine results
+else New User
+    Engine ->> DB: Get popular items
+    DB -->> Engine: Return trending products
+end
+
+Engine -->> Controller: Recommendation list
+Controller ->> UI: Render results + chart
+UI -->> User: Display recommendations
+
+@enduml

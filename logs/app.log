@@ -1,0 +1,564 @@
+2025-04-21 05:51:13 - INFO - Starting application...
+2025-04-21 05:51:13 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.41:5000
+2025-04-21 05:51:13 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 05:51:13 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-21 05:51:14 - INFO - Starting application...
+2025-04-21 05:51:14 - WARNING -  * Debugger is active!
+2025-04-21 05:51:14 - INFO -  * Debugger PIN: 139-833-775
+2025-04-21 05:51:19 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-21 05:51:19 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:19] "GET /login HTTP/1.1" 200 -
+2025-04-21 05:51:19 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-21 05:51:19 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:19] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-04-21 05:51:19 - WARNING - 404 Error: http://127.0.0.1:5000/favicon.ico
+2025-04-21 05:51:19 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-21 05:51:31 - INFO - User mahesh logged in successfully
+2025-04-21 05:51:31 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 05:51:31 - INFO - User mahesh accessed dashboard
+2025-04-21 05:51:31 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:31] "GET /dashboard HTTP/1.1" 200 -
+2025-04-21 05:51:31 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 05:51:31 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 05:51:36 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:36] "GET /recommendations HTTP/1.1" 200 -
+2025-04-21 05:51:36 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 05:51:36 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 05:51:47 - INFO - Recommendation request by mahesh - Params: user_id=reddy, product_id=, customer_name=, category=
+2025-04-21 05:51:49 - WARNING - Invalid ID format received
+2025-04-21 05:51:53 - INFO - Generated 162 recommendations for mahesh
+2025-04-21 05:51:53 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:53] "POST /recommendations HTTP/1.1" 200 -
+2025-04-21 05:51:53 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 05:51:54 - INFO - 127.0.0.1 - - [21/Apr/2025 05:51:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 05:52:07 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=, category=
+2025-04-21 05:52:07 - INFO - Generated 162 recommendations for mahesh
+2025-04-21 05:52:08 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:08] "POST /recommendations HTTP/1.1" 200 -
+2025-04-21 05:52:08 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 05:52:08 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 05:52:09 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=, category=
+2025-04-21 05:52:09 - INFO - Generated 162 recommendations for mahesh
+2025-04-21 05:52:09 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:09] "POST /recommendations HTTP/1.1" 200 -
+2025-04-21 05:52:09 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 05:52:09 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 05:52:17 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=, category=
+2025-04-21 05:52:17 - INFO - Generated 162 recommendations for mahesh
+2025-04-21 05:52:18 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:18] "POST /recommendations HTTP/1.1" 200 -
+2025-04-21 05:52:18 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 05:52:18 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 05:52:22 - INFO - User mahesh accessed home page
+2025-04-21 05:52:22 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-21 05:52:22 - INFO - User mahesh accessed dashboard
+2025-04-21 05:52:22 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:22] "GET /dashboard HTTP/1.1" 200 -
+2025-04-21 05:52:22 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 05:52:22 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:22] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 05:52:25 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:25] "GET /recommendations HTTP/1.1" 200 -
+2025-04-21 05:52:25 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 05:52:25 - INFO - 127.0.0.1 - - [21/Apr/2025 05:52:25] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 05:53:30 - INFO - 127.0.0.1 - - [21/Apr/2025 05:53:30] "GET /recommendations HTTP/1.1" 200 -
+2025-04-21 05:53:30 - INFO - 127.0.0.1 - - [21/Apr/2025 05:53:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 05:53:30 - INFO - 127.0.0.1 - - [21/Apr/2025 05:53:30] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-04-21 05:55:42 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-04-21 05:55:43 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-21 05:55:44 - INFO - Starting application...
+2025-04-21 05:55:44 - WARNING -  * Debugger is active!
+2025-04-21 05:55:44 - INFO -  * Debugger PIN: 139-833-775
+2025-04-21 06:03:06 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\__init__.py', reloading
+2025-04-21 06:03:06 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_base.py', reloading
+2025-04-21 06:03:06 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_csr.py', reloading
+2025-04-21 06:03:06 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_csc.py', reloading
+2025-04-21 06:03:06 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_lil.py', reloading
+2025-04-21 06:03:07 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_dok.py', reloading
+2025-04-21 06:03:07 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_coo.py', reloading
+2025-04-21 06:03:07 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_dia.py', reloading
+2025-04-21 06:03:07 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_bsr.py', reloading
+2025-04-21 06:03:07 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_construct.py', reloading
+2025-04-21 06:03:07 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_extract.py', reloading
+2025-04-21 06:03:07 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_matrix_io.py', reloading
+2025-04-21 06:03:07 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\_matrix.py', reloading
+2025-04-21 06:03:07 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-21 06:03:08 - INFO - Starting application...
+2025-04-21 06:03:08 - WARNING -  * Debugger is active!
+2025-04-21 06:03:08 - INFO -  * Debugger PIN: 139-833-775
+2025-04-21 06:06:29 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\plotly\\express\\__init__.py', reloading
+2025-04-21 06:06:29 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\plotly\\express\\_chart_types.py', reloading
+2025-04-21 06:06:29 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\plotly\\graph_objs\\__init__.py', reloading
+2025-04-21 06:06:30 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-21 06:06:31 - INFO - Starting application...
+2025-04-21 06:06:31 - WARNING -  * Debugger is active!
+2025-04-21 06:06:31 - INFO -  * Debugger PIN: 139-833-775
+2025-04-21 06:06:31 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\plotly\\__init__.py', reloading
+2025-04-21 06:06:31 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\plotly\\tools.py', reloading
+2025-04-21 06:06:31 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\plotly\\files.py', reloading
+2025-04-21 06:06:31 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_plotly_utils\\files.py', reloading
+2025-04-21 06:06:31 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\plotly\\io\\json.py', reloading
+2025-04-21 06:06:31 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\plotly\\io\\_json.py', reloading
+2025-04-21 06:06:31 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_plotly_utils\\utils.py', reloading
+2025-04-21 06:06:31 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\plotly\\validators\\__init__.py', reloading
+2025-04-21 06:06:31 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\plotly\\validators\\_data.py', reloading
+2025-04-21 06:06:31 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_plotly_utils\\basevalidators.py', reloading
+2025-04-21 06:06:32 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\plotly\\validators\\_layout.py', reloading
+2025-04-21 06:06:32 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\plotly\\validators\\_frames.py', reloading
+2025-04-21 06:06:32 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-21 06:06:33 - INFO - Starting application...
+2025-04-21 06:06:33 - WARNING -  * Debugger is active!
+2025-04-21 06:06:33 - INFO -  * Debugger PIN: 139-833-775
+2025-04-21 06:09:20 - INFO -  * Detected change in 'C:\\Users\\SESHA UPENDRA\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\logging\\__init__.py', reloading
+2025-04-21 06:09:21 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-21 06:09:23 - INFO - Starting application...
+2025-04-21 06:09:23 - WARNING -  * Debugger is active!
+2025-04-21 06:09:23 - INFO -  * Debugger PIN: 139-833-775
+2025-04-21 06:11:22 - INFO - 127.0.0.1 - - [21/Apr/2025 06:11:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-21 06:11:23 - INFO - 127.0.0.1 - - [21/Apr/2025 06:11:23] "GET /login HTTP/1.1" 200 -
+2025-04-21 06:11:23 - INFO - 127.0.0.1 - - [21/Apr/2025 06:11:23] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 06:11:23 - INFO - 127.0.0.1 - - [21/Apr/2025 06:11:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 06:11:57 - INFO - 127.0.0.1 - - [21/Apr/2025 06:11:57] "GET /register HTTP/1.1" 200 -
+2025-04-21 06:11:57 - INFO - 127.0.0.1 - - [21/Apr/2025 06:11:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 06:11:57 - INFO - 127.0.0.1 - - [21/Apr/2025 06:11:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 06:12:18 - INFO - 127.0.0.1 - - [21/Apr/2025 06:12:18] "GET /login HTTP/1.1" 200 -
+2025-04-21 06:12:18 - INFO - 127.0.0.1 - - [21/Apr/2025 06:12:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 06:12:18 - INFO - 127.0.0.1 - - [21/Apr/2025 06:12:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 06:12:27 - INFO - User mahesh logged in successfully
+2025-04-21 06:12:27 - INFO - 127.0.0.1 - - [21/Apr/2025 06:12:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-21 06:12:27 - INFO - User mahesh accessed dashboard
+2025-04-21 06:12:27 - INFO - 127.0.0.1 - - [21/Apr/2025 06:12:27] "GET /dashboard HTTP/1.1" 200 -
+2025-04-21 06:12:27 - INFO - 127.0.0.1 - - [21/Apr/2025 06:12:27] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 06:12:27 - INFO - 127.0.0.1 - - [21/Apr/2025 06:12:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 06:12:45 - INFO - 127.0.0.1 - - [21/Apr/2025 06:12:45] "GET /recommendations HTTP/1.1" 200 -
+2025-04-21 06:12:45 - INFO - 127.0.0.1 - - [21/Apr/2025 06:12:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 06:12:45 - INFO - 127.0.0.1 - - [21/Apr/2025 06:12:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 06:13:25 - INFO - Recommendation request by mahesh - Params: user_id=823, product_id=34, customer_name=Pooja Shrama, category=Electronics
+2025-04-21 06:13:28 - WARNING - Invalid product index: 822
+2025-04-21 06:13:28 - WARNING - Invalid product index: 840
+2025-04-21 06:13:28 - WARNING - Invalid product index: 885
+2025-04-21 06:13:29 - INFO - Generated 53 recommendations for mahesh
+2025-04-21 06:13:29 - INFO - 127.0.0.1 - - [21/Apr/2025 06:13:29] "POST /recommendations HTTP/1.1" 200 -
+2025-04-21 06:13:29 - INFO - 127.0.0.1 - - [21/Apr/2025 06:13:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 06:13:29 - INFO - 127.0.0.1 - - [21/Apr/2025 06:13:29] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 06:14:55 - INFO - Recommendation request by mahesh - Params: user_id=823, product_id=34, customer_name=Pooja Shrama, category=Electronics
+2025-04-21 06:14:55 - WARNING - Invalid product index: 822
+2025-04-21 06:14:55 - WARNING - Invalid product index: 840
+2025-04-21 06:14:55 - WARNING - Invalid product index: 885
+2025-04-21 06:14:55 - INFO - Generated 53 recommendations for mahesh
+2025-04-21 06:14:55 - INFO - 127.0.0.1 - - [21/Apr/2025 06:14:55] "POST /recommendations HTTP/1.1" 200 -
+2025-04-21 06:14:56 - INFO - 127.0.0.1 - - [21/Apr/2025 06:14:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 06:14:56 - INFO - 127.0.0.1 - - [21/Apr/2025 06:14:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 06:14:57 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=, category=
+2025-04-21 06:14:57 - INFO - Generated 162 recommendations for mahesh
+2025-04-21 06:14:57 - INFO - 127.0.0.1 - - [21/Apr/2025 06:14:57] "POST /recommendations HTTP/1.1" 200 -
+2025-04-21 06:14:57 - INFO - 127.0.0.1 - - [21/Apr/2025 06:14:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 06:14:58 - INFO - 127.0.0.1 - - [21/Apr/2025 06:14:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 06:20:34 - INFO - User mahesh accessed dashboard
+2025-04-21 06:20:34 - INFO - 127.0.0.1 - - [21/Apr/2025 06:20:34] "GET /dashboard HTTP/1.1" 200 -
+2025-04-21 06:20:34 - INFO - 127.0.0.1 - - [21/Apr/2025 06:20:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 06:20:34 - INFO - 127.0.0.1 - - [21/Apr/2025 06:20:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-21 06:20:37 - INFO - 127.0.0.1 - - [21/Apr/2025 06:20:37] "GET /recommendations HTTP/1.1" 200 -
+2025-04-21 06:20:37 - INFO - 127.0.0.1 - - [21/Apr/2025 06:20:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-21 06:20:37 - INFO - 127.0.0.1 - - [21/Apr/2025 06:20:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 11:52:46 - INFO - Starting application...
+2025-04-22 11:52:46 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.210.97:5000
+2025-04-22 11:52:46 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-22 11:52:46 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-22 11:52:47 - INFO - Starting application...
+2025-04-22 11:52:47 - WARNING -  * Debugger is active!
+2025-04-22 11:52:47 - INFO -  * Debugger PIN: 139-833-775
+2025-04-22 11:52:57 - INFO - 127.0.0.1 - - [22/Apr/2025 11:52:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-22 11:52:57 - INFO - 127.0.0.1 - - [22/Apr/2025 11:52:57] "GET /login HTTP/1.1" 200 -
+2025-04-22 11:52:57 - INFO - 127.0.0.1 - - [22/Apr/2025 11:52:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 11:52:57 - INFO - 127.0.0.1 - - [22/Apr/2025 11:52:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 11:52:57 - WARNING - 404 Error: http://127.0.0.1:5000/favicon.ico
+2025-04-22 11:52:57 - INFO - 127.0.0.1 - - [22/Apr/2025 11:52:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-22 11:53:03 - INFO - User mahesh logged in successfully
+2025-04-22 11:53:03 - INFO - 127.0.0.1 - - [22/Apr/2025 11:53:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-22 11:53:03 - INFO - User mahesh accessed dashboard
+2025-04-22 11:53:03 - INFO - 127.0.0.1 - - [22/Apr/2025 11:53:03] "GET /dashboard HTTP/1.1" 200 -
+2025-04-22 11:53:03 - INFO - 127.0.0.1 - - [22/Apr/2025 11:53:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 11:53:03 - INFO - 127.0.0.1 - - [22/Apr/2025 11:53:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 11:53:07 - INFO - 127.0.0.1 - - [22/Apr/2025 11:53:07] "GET /recommendations HTTP/1.1" 200 -
+2025-04-22 11:53:07 - INFO - 127.0.0.1 - - [22/Apr/2025 11:53:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 11:53:07 - INFO - 127.0.0.1 - - [22/Apr/2025 11:53:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 11:53:15 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=reddy, category=
+2025-04-22 11:53:18 - WARNING - Invalid product index: 577
+2025-04-22 11:53:18 - WARNING - Invalid product index: 510
+2025-04-22 11:53:18 - WARNING - Invalid product index: 649
+2025-04-22 11:53:23 - INFO - Generated 40 recommendations for mahesh
+2025-04-22 11:53:23 - INFO - 127.0.0.1 - - [22/Apr/2025 11:53:23] "POST /recommendations HTTP/1.1" 200 -
+2025-04-22 11:53:23 - INFO - 127.0.0.1 - - [22/Apr/2025 11:53:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 11:53:24 - INFO - 127.0.0.1 - - [22/Apr/2025 11:53:24] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:03:20 - INFO - Starting application...
+2025-04-22 12:03:20 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.33.106:5000
+2025-04-22 12:03:20 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-22 12:03:20 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-22 12:03:22 - INFO - Starting application...
+2025-04-22 12:03:22 - WARNING -  * Debugger is active!
+2025-04-22 12:03:22 - INFO -  * Debugger PIN: 454-487-229
+2025-04-22 12:03:33 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:33] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-22 12:03:34 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:34] "GET /login HTTP/1.1" 200 -
+2025-04-22 12:03:34 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:34] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-22 12:03:34 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:34] "GET /login HTTP/1.1" 200 -
+2025-04-22 12:03:34 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-22 12:03:34 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:34] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-04-22 12:03:34 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:03:34 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:03:34 - WARNING - 404 Error: http://127.0.0.1:5000/favicon.ico
+2025-04-22 12:03:34 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-22 12:03:34 - WARNING - 404 Error: http://127.0.0.1:5000/favicon.ico
+2025-04-22 12:03:34 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-22 12:03:42 - INFO - User mahesh logged in successfully
+2025-04-22 12:03:42 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-22 12:03:42 - INFO - User mahesh accessed dashboard
+2025-04-22 12:03:42 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:42] "GET /dashboard HTTP/1.1" 200 -
+2025-04-22 12:03:42 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:03:42 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:03:45 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:45] "GET /recommendations HTTP/1.1" 200 -
+2025-04-22 12:03:45 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:03:45 - INFO - 127.0.0.1 - - [22/Apr/2025 12:03:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:03:55 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=Reddy, category=
+2025-04-22 12:03:58 - WARNING - Invalid product index: 577
+2025-04-22 12:03:58 - WARNING - Invalid product index: 510
+2025-04-22 12:03:58 - WARNING - Invalid product index: 649
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterpolar\\__init__.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterpolar\\_marker.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterpolar\\marker\\__init__.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterpolar\\marker\\_colorbar.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterpolar\\marker\\colorbar\\__init__.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterpolar\\marker\\colorbar\\_outlinewidth.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterpolar\\marker\\colorbar\\_ticks.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatter\\_fillpattern.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatter\\fillpattern\\__init__.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatter\\fillpattern\\_fillmode.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatter\\fillpattern\\_size.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatter\\fillpattern\\_solidity.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\template\\data\\_scatterternary.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterternary\\__init__.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterternary\\_marker.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterternary\\marker\\__init__.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterternary\\marker\\_colorbar.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterternary\\marker\\colorbar\\__init__.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterternary\\marker\\colorbar\\_outlinewidth.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\scatterternary\\marker\\colorbar\\_ticks.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\template\\data\\_surface.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\surface\\__init__.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\surface\\_colorbar.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\surface\\colorbar\\__init__.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\surface\\colorbar\\_outlinewidth.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\surface\\colorbar\\_ticks.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\surface\\_colorscale.py', reloading
+2025-04-22 12:04:00 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\__init__.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\_angularaxis.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\angularaxis\\__init__.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\angularaxis\\_gridcolor.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\angularaxis\\_linecolor.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\angularaxis\\_ticks.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\_bgcolor.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\_radialaxis.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\radialaxis\\__init__.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\radialaxis\\_gridcolor.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\radialaxis\\_linecolor.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\polar\\radialaxis\\_ticks.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\__init__.py', reloading
+2025-04-22 12:04:01 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\_xaxis.py', reloading
+2025-04-22 12:04:01 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-22 12:04:03 - INFO - Starting application...
+2025-04-22 12:04:03 - WARNING -  * Debugger is active!
+2025-04-22 12:04:03 - INFO -  * Debugger PIN: 454-487-229
+2025-04-22 12:04:04 - WARNING - Unauthorized dashboard access attempt
+2025-04-22 12:04:04 - INFO - 127.0.0.1 - - [22/Apr/2025 12:04:04] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-04-22 12:04:04 - INFO - 127.0.0.1 - - [22/Apr/2025 12:04:04] "GET /login HTTP/1.1" 200 -
+2025-04-22 12:04:12 - INFO - User mahesh logged in successfully
+2025-04-22 12:04:12 - INFO - 127.0.0.1 - - [22/Apr/2025 12:04:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-22 12:04:12 - INFO - User mahesh accessed dashboard
+2025-04-22 12:04:12 - INFO - 127.0.0.1 - - [22/Apr/2025 12:04:12] "GET /dashboard HTTP/1.1" 200 -
+2025-04-22 12:04:13 - INFO - 127.0.0.1 - - [22/Apr/2025 12:04:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:04:13 - INFO - 127.0.0.1 - - [22/Apr/2025 12:04:13] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:04:19 - INFO - 127.0.0.1 - - [22/Apr/2025 12:04:19] "GET /recommendations HTTP/1.1" 200 -
+2025-04-22 12:04:19 - INFO - 127.0.0.1 - - [22/Apr/2025 12:04:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:04:19 - INFO - 127.0.0.1 - - [22/Apr/2025 12:04:19] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:04:27 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=Reddy, category=
+2025-04-22 12:04:29 - WARNING - Invalid product index: 577
+2025-04-22 12:04:29 - WARNING - Invalid product index: 510
+2025-04-22 12:04:29 - WARNING - Invalid product index: 649
+2025-04-22 12:04:30 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\xaxis\\__init__.py', reloading
+2025-04-22 12:04:30 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\xaxis\\_backgroundcolor.py', reloading
+2025-04-22 12:04:30 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\xaxis\\_gridcolor.py', reloading
+2025-04-22 12:04:30 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\xaxis\\_gridwidth.py', reloading
+2025-04-22 12:04:30 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\xaxis\\_linecolor.py', reloading
+2025-04-22 12:04:30 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\xaxis\\_showbackground.py', reloading
+2025-04-22 12:04:30 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\xaxis\\_ticks.py', reloading
+2025-04-22 12:04:30 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\xaxis\\_zerolinecolor.py', reloading
+2025-04-22 12:04:30 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\_yaxis.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\yaxis\\__init__.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\yaxis\\_backgroundcolor.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\yaxis\\_gridcolor.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\yaxis\\_gridwidth.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\yaxis\\_linecolor.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\yaxis\\_showbackground.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\yaxis\\_ticks.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\yaxis\\_zerolinecolor.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\_zaxis.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\zaxis\\__init__.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\zaxis\\_backgroundcolor.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\zaxis\\_gridcolor.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\zaxis\\_gridwidth.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\zaxis\\_linecolor.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\zaxis\\_showbackground.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\zaxis\\_ticks.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\scene\\zaxis\\_zerolinecolor.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\shape\\__init__.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\shape\\_line.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\shape\\line\\__init__.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\shape\\line\\_color.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\__init__.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\_aaxis.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\aaxis\\__init__.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\aaxis\\_gridcolor.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\aaxis\\_linecolor.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\aaxis\\_ticks.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\_baxis.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\baxis\\__init__.py', reloading
+2025-04-22 12:04:31 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\baxis\\_gridcolor.py', reloading
+2025-04-22 12:04:32 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-22 12:04:34 - INFO - Starting application...
+2025-04-22 12:04:34 - WARNING -  * Debugger is active!
+2025-04-22 12:04:34 - INFO -  * Debugger PIN: 454-487-229
+2025-04-22 12:13:29 - INFO - Starting application...
+2025-04-22 12:13:29 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.33.106:5000
+2025-04-22 12:13:29 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-22 12:13:29 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-22 12:13:30 - INFO - Starting application...
+2025-04-22 12:13:30 - WARNING -  * Debugger is active!
+2025-04-22 12:13:30 - INFO -  * Debugger PIN: 454-487-229
+2025-04-22 12:13:39 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:39] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-22 12:13:39 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:39] "GET /login HTTP/1.1" 200 -
+2025-04-22 12:13:40 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:13:40 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:13:40 - WARNING - 404 Error: http://127.0.0.1:5000/favicon.ico
+2025-04-22 12:13:40 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-22 12:13:45 - INFO - User mahesh logged in successfully
+2025-04-22 12:13:45 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-22 12:13:45 - INFO - User mahesh accessed dashboard
+2025-04-22 12:13:45 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:45] "GET /dashboard HTTP/1.1" 200 -
+2025-04-22 12:13:45 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:13:45 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:13:47 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:47] "GET /recommendations HTTP/1.1" 200 -
+2025-04-22 12:13:47 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:13:47 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:47] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:13:51 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=Reddy, category=
+2025-04-22 12:13:54 - WARNING - Invalid product index: 577
+2025-04-22 12:13:54 - WARNING - Invalid product index: 510
+2025-04-22 12:13:54 - WARNING - Invalid product index: 649
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\baxis\\_linecolor.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\baxis\\_ticks.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\_bgcolor.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\_caxis.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\caxis\\__init__.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\caxis\\_gridcolor.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\caxis\\_linecolor.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\ternary\\caxis\\_ticks.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\title\\_x.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\xaxis\\_automargin.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\xaxis\\_gridcolor.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\xaxis\\_linecolor.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\xaxis\\_ticks.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\xaxis\\_title.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\xaxis\\title\\__init__.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\xaxis\\title\\_standoff.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\xaxis\\_zerolinecolor.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\xaxis\\_zerolinewidth.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\yaxis\\_automargin.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\yaxis\\_gridcolor.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\yaxis\\_linecolor.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\yaxis\\_ticks.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\yaxis\\_title.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\yaxis\\title\\__init__.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\yaxis\\title\\_standoff.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\yaxis\\_zerolinecolor.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\yaxis\\_zerolinewidth.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\yaxis\\title\\_text.py', reloading
+2025-04-22 12:13:56 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\plotly\\validators\\layout\\xaxis\\title\\_text.py', reloading
+2025-04-22 12:13:57 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-22 12:13:58 - INFO - Starting application...
+2025-04-22 12:13:58 - WARNING -  * Debugger is active!
+2025-04-22 12:13:58 - INFO -  * Debugger PIN: 454-487-229
+2025-04-22 12:13:59 - WARNING - Unauthorized recommendations access attempt
+2025-04-22 12:13:59 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:59] "[32mPOST /recommendations HTTP/1.1[0m" 302 -
+2025-04-22 12:13:59 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:59] "GET /login HTTP/1.1" 200 -
+2025-04-22 12:13:59 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:13:59 - INFO - 127.0.0.1 - - [22/Apr/2025 12:13:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:14:45 - INFO - Starting application...
+2025-04-22 12:14:46 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.33.106:5000
+2025-04-22 12:14:46 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-22 12:14:46 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-22 12:14:47 - INFO - Starting application...
+2025-04-22 12:14:47 - WARNING -  * Debugger is active!
+2025-04-22 12:14:47 - INFO -  * Debugger PIN: 454-487-229
+2025-04-22 12:14:57 - INFO - 127.0.0.1 - - [22/Apr/2025 12:14:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-22 12:14:57 - INFO - 127.0.0.1 - - [22/Apr/2025 12:14:57] "GET /login HTTP/1.1" 200 -
+2025-04-22 12:14:57 - INFO - 127.0.0.1 - - [22/Apr/2025 12:14:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:14:57 - INFO - 127.0.0.1 - - [22/Apr/2025 12:14:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:15:03 - INFO - User mahesh logged in successfully
+2025-04-22 12:15:03 - INFO - 127.0.0.1 - - [22/Apr/2025 12:15:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-22 12:15:03 - INFO - User mahesh accessed dashboard
+2025-04-22 12:15:03 - INFO - 127.0.0.1 - - [22/Apr/2025 12:15:03] "GET /dashboard HTTP/1.1" 200 -
+2025-04-22 12:15:03 - INFO - 127.0.0.1 - - [22/Apr/2025 12:15:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:15:03 - INFO - 127.0.0.1 - - [22/Apr/2025 12:15:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:15:04 - INFO - 127.0.0.1 - - [22/Apr/2025 12:15:04] "GET /recommendations HTTP/1.1" 200 -
+2025-04-22 12:15:05 - INFO - 127.0.0.1 - - [22/Apr/2025 12:15:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:15:05 - INFO - 127.0.0.1 - - [22/Apr/2025 12:15:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:15:09 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=Reddy, category=
+2025-04-22 12:15:11 - WARNING - Invalid product index: 577
+2025-04-22 12:15:11 - WARNING - Invalid product index: 510
+2025-04-22 12:15:11 - WARNING - Invalid product index: 649
+2025-04-22 12:15:13 - INFO - Generated 48 recommendations for mahesh
+2025-04-22 12:15:13 - INFO - 127.0.0.1 - - [22/Apr/2025 12:15:13] "POST /recommendations HTTP/1.1" 200 -
+2025-04-22 12:15:13 - INFO - 127.0.0.1 - - [22/Apr/2025 12:15:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:15:14 - INFO - 127.0.0.1 - - [22/Apr/2025 12:15:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:16:06 - INFO - User mahesh accessed home page
+2025-04-22 12:16:06 - INFO - 127.0.0.1 - - [22/Apr/2025 12:16:06] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-22 12:16:06 - INFO - User mahesh accessed dashboard
+2025-04-22 12:16:06 - INFO - 127.0.0.1 - - [22/Apr/2025 12:16:06] "GET /dashboard HTTP/1.1" 200 -
+2025-04-22 12:16:06 - INFO - 127.0.0.1 - - [22/Apr/2025 12:16:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:16:06 - INFO - 127.0.0.1 - - [22/Apr/2025 12:16:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:16:06 - WARNING - 404 Error: http://127.0.0.1:5000/favicon.ico
+2025-04-22 12:16:06 - INFO - 127.0.0.1 - - [22/Apr/2025 12:16:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-22 12:16:08 - INFO - 127.0.0.1 - - [22/Apr/2025 12:16:08] "GET /recommendations HTTP/1.1" 200 -
+2025-04-22 12:16:08 - INFO - 127.0.0.1 - - [22/Apr/2025 12:16:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:16:08 - INFO - 127.0.0.1 - - [22/Apr/2025 12:16:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:16:14 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=Reddy, category=
+2025-04-22 12:16:14 - WARNING - Invalid product index: 577
+2025-04-22 12:16:14 - WARNING - Invalid product index: 510
+2025-04-22 12:16:14 - WARNING - Invalid product index: 649
+2025-04-22 12:16:14 - INFO - Generated 48 recommendations for mahesh
+2025-04-22 12:16:14 - INFO - 127.0.0.1 - - [22/Apr/2025 12:16:14] "POST /recommendations HTTP/1.1" 200 -
+2025-04-22 12:16:14 - INFO - 127.0.0.1 - - [22/Apr/2025 12:16:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:16:16 - INFO - 127.0.0.1 - - [22/Apr/2025 12:16:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:17:03 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=, category=
+2025-04-22 12:17:04 - INFO - Generated 162 recommendations for mahesh
+2025-04-22 12:17:04 - INFO - 127.0.0.1 - - [22/Apr/2025 12:17:04] "POST /recommendations HTTP/1.1" 200 -
+2025-04-22 12:17:04 - INFO - 127.0.0.1 - - [22/Apr/2025 12:17:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:17:05 - INFO - 127.0.0.1 - - [22/Apr/2025 12:17:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:17:44 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=harsha, category=
+2025-04-22 12:17:45 - INFO - Generated 162 recommendations for mahesh
+2025-04-22 12:17:45 - INFO - 127.0.0.1 - - [22/Apr/2025 12:17:45] "POST /recommendations HTTP/1.1" 200 -
+2025-04-22 12:17:45 - INFO - 127.0.0.1 - - [22/Apr/2025 12:17:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:17:45 - INFO - 127.0.0.1 - - [22/Apr/2025 12:17:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:17:59 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=vikram reddy, category=
+2025-04-22 12:17:59 - WARNING - Invalid product index: 577
+2025-04-22 12:17:59 - WARNING - Invalid product index: 510
+2025-04-22 12:17:59 - WARNING - Invalid product index: 649
+2025-04-22 12:18:00 - INFO - Generated 48 recommendations for mahesh
+2025-04-22 12:18:00 - INFO - 127.0.0.1 - - [22/Apr/2025 12:18:00] "POST /recommendations HTTP/1.1" 200 -
+2025-04-22 12:18:00 - INFO - 127.0.0.1 - - [22/Apr/2025 12:18:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:18:00 - INFO - 127.0.0.1 - - [22/Apr/2025 12:18:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:20:42 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\sparse\\_matrix.py', reloading
+2025-04-22 12:20:44 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-22 12:20:46 - INFO - Starting application...
+2025-04-22 12:20:46 - WARNING -  * Debugger is active!
+2025-04-22 12:20:46 - INFO -  * Debugger PIN: 454-487-229
+2025-04-22 12:59:17 - INFO - Starting application...
+2025-04-22 12:59:17 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.33.106:5000
+2025-04-22 12:59:17 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-22 12:59:17 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-22 12:59:18 - INFO - Starting application...
+2025-04-22 12:59:18 - WARNING -  * Debugger is active!
+2025-04-22 12:59:18 - INFO -  * Debugger PIN: 454-487-229
+2025-04-22 12:59:48 - INFO - 127.0.0.1 - - [22/Apr/2025 12:59:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-22 12:59:48 - INFO - 127.0.0.1 - - [22/Apr/2025 12:59:48] "GET /login HTTP/1.1" 200 -
+2025-04-22 12:59:48 - INFO - 127.0.0.1 - - [22/Apr/2025 12:59:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:59:48 - INFO - 127.0.0.1 - - [22/Apr/2025 12:59:48] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 12:59:58 - WARNING - Failed login attempt for username: mahesh
+2025-04-22 12:59:58 - INFO - 127.0.0.1 - - [22/Apr/2025 12:59:58] "POST /login HTTP/1.1" 200 -
+2025-04-22 12:59:58 - INFO - 127.0.0.1 - - [22/Apr/2025 12:59:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 12:59:58 - INFO - 127.0.0.1 - - [22/Apr/2025 12:59:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 13:00:11 - INFO - User mahesh logged in successfully
+2025-04-22 13:00:11 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-22 13:00:11 - INFO - User mahesh accessed dashboard
+2025-04-22 13:00:11 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:11] "GET /dashboard HTTP/1.1" 200 -
+2025-04-22 13:00:11 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 13:00:11 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 13:00:14 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:14] "GET /recommendations HTTP/1.1" 200 -
+2025-04-22 13:00:15 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 13:00:15 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 13:00:22 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=Reddy, category=
+2025-04-22 13:00:25 - WARNING - Invalid product index: 577
+2025-04-22 13:00:25 - WARNING - Invalid product index: 510
+2025-04-22 13:00:25 - WARNING - Invalid product index: 649
+2025-04-22 13:00:27 - INFO - Generated 48 recommendations for mahesh
+2025-04-22 13:00:27 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:27] "POST /recommendations HTTP/1.1" 200 -
+2025-04-22 13:00:27 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 13:00:28 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 13:00:57 - INFO - Recommendation request by mahesh - Params: user_id=, product_id=, customer_name=havila, category=
+2025-04-22 13:00:57 - INFO - Generated 162 recommendations for mahesh
+2025-04-22 13:00:57 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:57] "POST /recommendations HTTP/1.1" 200 -
+2025-04-22 13:00:58 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 13:00:59 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 13:01:21 - INFO -  * Detected change in 'D:\\personalized-recommendation\\app.py', reloading
+2025-04-22 13:01:21 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-22 13:01:24 - INFO - Starting application...
+2025-04-22 13:01:24 - WARNING -  * Debugger is active!
+2025-04-22 13:01:24 - INFO -  * Debugger PIN: 454-487-229
+2025-04-22 13:25:41 - INFO - Starting application...
+2025-04-22 13:25:41 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.214.106:5000
+2025-04-22 13:25:41 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-22 13:25:41 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-22 13:25:43 - INFO - Starting application...
+2025-04-22 13:25:43 - WARNING -  * Debugger is active!
+2025-04-22 13:25:43 - INFO -  * Debugger PIN: 454-487-229
+2025-04-22 13:25:52 - INFO - 127.0.0.1 - - [22/Apr/2025 13:25:52] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-22 13:25:52 - INFO - 127.0.0.1 - - [22/Apr/2025 13:25:52] "GET /login HTTP/1.1" 200 -
+2025-04-22 13:25:53 - INFO - 127.0.0.1 - - [22/Apr/2025 13:25:53] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 13:25:53 - INFO - 127.0.0.1 - - [22/Apr/2025 13:25:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 13:26:02 - INFO - User mahesh logged in successfully
+2025-04-22 13:26:02 - INFO - 127.0.0.1 - - [22/Apr/2025 13:26:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-22 13:26:02 - INFO - User mahesh accessed dashboard
+2025-04-22 13:26:02 - INFO - 127.0.0.1 - - [22/Apr/2025 13:26:02] "GET /dashboard HTTP/1.1" 200 -
+2025-04-22 13:26:02 - INFO - 127.0.0.1 - - [22/Apr/2025 13:26:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 13:26:02 - INFO - 127.0.0.1 - - [22/Apr/2025 13:26:02] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-22 13:26:04 - INFO - 127.0.0.1 - - [22/Apr/2025 13:26:04] "GET /recommendations HTTP/1.1" 200 -
+2025-04-22 13:26:04 - INFO - 127.0.0.1 - - [22/Apr/2025 13:26:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-22 13:26:04 - INFO - 127.0.0.1 - - [22/Apr/2025 13:26:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-08-24 22:02:05 - INFO - Starting application...
+2025-08-24 22:02:05 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.33:5000
+2025-08-24 22:02:05 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-24 22:02:05 - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-24 22:02:07 - INFO - Starting application...
+2025-08-24 22:02:07 - WARNING -  * Debugger is active!
+2025-08-24 22:02:07 - INFO -  * Debugger PIN: 107-538-199
+2025-08-24 22:03:37 - INFO -  * Detected change in 'C:\\Users\\vamsi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\security.py', reloading
+2025-08-24 22:03:38 - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-24 22:03:40 - INFO - Starting application...
+2025-08-24 22:03:40 - WARNING -  * Debugger is active!
+2025-08-24 22:03:40 - INFO -  * Debugger PIN: 107-538-199

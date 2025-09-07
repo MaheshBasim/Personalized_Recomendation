@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect x="200" y="150" width="400" height="300" rx="20" fill="#f8f9fa" stroke="#ff758c" stroke-width="10"/>
+  <circle cx="400" cy="250" r="50" fill="#ff758c" opacity="0.2"/>
+  <path fill="#764ba2" d="M350,400h100v40H350z"/>
+  <path fill="none" stroke="#667eea" stroke-width="8" d="M300,200l50,50 50-50 50,50"/>
+  <text x="400" y="550" font-family="Arial" font-size="40" text-anchor="middle" fill="#343a40">500</text>
+</svg>

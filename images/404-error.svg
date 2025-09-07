@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <circle cx="400" cy="300" r="200" fill="#f8f9fa" stroke="#667eea" stroke-width="10"/>
+  <path fill="#764ba2" d="M350,450h100v40H350z"/>
+  <circle cx="300" cy="200" r="30" fill="#667eea"/>
+  <circle cx="500" cy="200" r="30" fill="#667eea"/>
+  <path fill="none" stroke="#ff758c" stroke-width="15" stroke-linecap="round" d="M300,350q50-30 100,0"/>
+  <text x="400" y="550" font-family="Arial" font-size="40" text-anchor="middle" fill="#343a40">404</text>
+</svg>

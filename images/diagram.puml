@@ -1,0 +1,61 @@
+@startuml
+left to right direction
+skinparam usecase {
+    BackgroundColor #f8f9fa
+    BorderColor #343a40
+    FontColor #212529
+}
+
+actor Customer as "Customer" <<Person>>
+actor Admin as "Administrator" <<Person>>
+
+rectangle System {
+    (Login) as uc1
+    (Register Account) as uc2
+    (Browse Products) as uc3
+    (View Personalized Recommendations) as uc4
+    (View Product Details) as uc5
+    (Add to Cart) as uc6
+    (Check Purchase History) as uc7
+
+    (Manage User Accounts) as uc8
+    (Monitor System Health) as uc9
+    (Update Recommendation Models) as uc10
+
+    Customer --> uc1
+    Customer --> uc2
+    Customer --> uc3
+    Customer --> uc4
+    Customer --> uc5
+    Customer --> uc6
+    Customer --> uc7
+
+    Admin --> uc8
+    Admin --> uc9
+    Admin --> uc10
+
+    uc4 .> (Content-Based Filtering) : includes
+    uc4 .> (Collaborative Filtering) : includes
+    uc4 .> (Popular Items Fallback) : extends
+
+    note right of uc4
+      Hybrid recommendation engine
+      combines 3 approaches:
+      1. User behavior analysis
+      2. Product similarity
+      3. Trending items
+    end note
+}
+
+note left of Customer
+  Customers interact with
+  the recommendation engine
+  through personalized suggestions
+end note
+
+note right of Admin
+  Admins monitor and
+  optimize recommendation
+  algorithms
+end note
+@enduml
